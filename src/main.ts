@@ -79,7 +79,7 @@ function CheckGameOver()
         let birdleft = parseInt(window.getComputedStyle(bird).getPropertyValue("left"))
 
         //detect cactus collision
-        if(dinoTop >= 150 && Math.abs(cactusleft) < 7)
+        if(dinoTop >= 150 && cactusleft < 7)
         {
             //end game
             console.log("player died!")
@@ -94,7 +94,7 @@ function CheckGameOver()
         }
 
         //detect bird collision
-        if(dinoTop <= 55 && Math.abs(birdleft) < 11)
+        if(dinoTop <= 55 && birdleft < 11)
         {
             //end game
             console.log("player died!")
