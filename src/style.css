@@ -6,6 +6,7 @@
   margin: auto;
   background-color:lightskyblue;
   overflow: hidden;
+  
 }
 
 .gameContainer
@@ -60,11 +61,11 @@
 
 #cactus
 {
-  width: 75px;
-  height: 75px;
+  width: 70px;
+  height: 70px;
 
   background-image: url(/assets/cactus.png);
-  background-size: 75px 75px;
+  background-size: 70px 70px;
 
 
   position: relative;

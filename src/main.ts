@@ -118,6 +118,7 @@ function StartGame()
     score = 0
     cactus?.classList.add("cactusMove")
     bird?.classList.add("birdMove")
+    
 }
 
 function SetText(s: string)
